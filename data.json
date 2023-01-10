@@ -15,9 +15,10 @@
   "socials": [
     {
       "title": "Twitter",
-      "href": "https://twitter.com/aldocasareto"
+      "href": "https://twitter.com/aldocasareto",
+      "icon": "FaTwitter"
     },
-    { "title": "Instagram", "href": "https://instagram.com/" },
-    { "title": "Github", "href": "https://github.com/aldocasareto" }
+    { "title": "Instagram", "href": "https://instagram.com/", "icon": "FaInstagram" },
+    { "title": "Github", "href": "https://github.com/aldocasareto", "icon": "FaGithub" }
   ]
 }

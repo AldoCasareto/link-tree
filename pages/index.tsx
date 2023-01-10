@@ -11,9 +11,8 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <div className='flex items-center justify-center mt-28 flex-col px-40 space-y-4'>
-        <UserCard />
-      </div>
+
+      <UserCard />
     </>
   );
 }
