@@ -1,0 +1,23 @@
+{
+  "name": "Aldo",
+  "avatar": "/images/aldogithub.jpeg",
+  "links": [
+    {
+      "title": "My personal Site",
+      "href": "https://www.larepublica.com.pe",
+      "image": "https://twitter.com/aldocasareto/photo"
+    },
+    {
+      "title": "Ivy Oak",
+      "href": "https://www.ivyoak.com"
+    }
+  ],
+  "socials": [
+    {
+      "title": "Twitter",
+      "href": "https://twitter.com/aldocasareto"
+    },
+    { "title": "Instagram", "href": "https://instagram.com/" },
+    { "title": "Github", "href": "https://github.com/aldocasareto" }
+  ]
+}

@@ -1,25 +1,8 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import LinksCard from '../components/LinksCard';
+
+import UserCard from '../components/LinkCard.tsx';
 
 export default function Home() {
-  const data = [
-    {
-      image: '/images/aldogithub.jpeg',
-      name: 'Aldo',
-      socials: {
-        twitter: 'https://twitter.com/aldocasareto',
-        facebook: 'https://facebook.com',
-        instagram: 'https://instagram.com',
-      },
-      work: {
-        ivy: 'https://ivyoak.com',
-        voteRookie: 'https://voterookie.com',
-        ekomi: 'https://ekomi.com',
-      },
-    },
-  ];
-
   return (
     <>
       <Head>
@@ -29,14 +12,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <div className='flex items-center justify-center mt-28 flex-col px-40 space-y-4'>
-        <Image
-          src={data[0].image}
-          alt={data[0].name}
-          width={200}
-          height={200}
-          className='rounded-full'
-        />
-        <LinksCard data={data} />
+        <UserCard />
       </div>
     </>
   );
